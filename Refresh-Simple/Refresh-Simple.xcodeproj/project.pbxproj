@@ -13,6 +13,7 @@
 		266B685F1C3A7749007B2749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266B685D1C3A7749007B2749 /* Main.storyboard */; };
 		266B68611C3A7749007B2749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266B68601C3A7749007B2749 /* Assets.xcassets */; };
 		266B68641C3A7749007B2749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266B68621C3A7749007B2749 /* LaunchScreen.storyboard */; };
+		266B686E1C3A783B007B2749 /* HMRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 266B686D1C3A783B007B2749 /* HMRefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		266B68601C3A7749007B2749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		266B68631C3A7749007B2749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		266B68651C3A7749007B2749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266B686C1C3A783B007B2749 /* HMRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRefreshControl.h; sourceTree = "<group>"; };
+		266B686D1C3A783B007B2749 /* HMRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMRefreshControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		266B68531C3A7749007B2749 /* Refresh-Simple */ = {
 			isa = PBXGroup;
 			children = (
+				266B686B1C3A7810007B2749 /* Source */,
 				266B68571C3A7749007B2749 /* AppDelegate.h */,
 				266B68581C3A7749007B2749 /* AppDelegate.m */,
 				266B685A1C3A7749007B2749 /* ViewController.h */,
@@ -78,6 +82,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		266B686B1C3A7810007B2749 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				266B686C1C3A783B007B2749 /* HMRefreshControl.h */,
+				266B686D1C3A783B007B2749 /* HMRefreshControl.m */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -152,6 +165,7 @@
 			files = (
 				266B685C1C3A7749007B2749 /* ViewController.m in Sources */,
 				266B68591C3A7749007B2749 /* AppDelegate.m in Sources */,
+				266B686E1C3A783B007B2749 /* HMRefreshControl.m in Sources */,
 				266B68561C3A7749007B2749 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
